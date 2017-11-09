@@ -8,3 +8,14 @@ exports.cards = function(request, response)
     );
 }
 
+exports.cards_tamil = function(request, response)
+{
+    response.render(
+        "cards_tamil",
+        {
+
+        }
+    );
+}
+
+

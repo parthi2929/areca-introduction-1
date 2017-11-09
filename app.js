@@ -18,6 +18,7 @@ app.get("/",
     //call back function to be called when '/' route is called
     routes.cards
 );
+app.get("/tamil", routes.cards_tamil);
 
 //5. Decide the port
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 8080;
