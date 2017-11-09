@@ -1,7 +1,7 @@
 {
-  "name": "ilovemycity-ejs-refactored",
+  "name": "introduction-website-1",
   "version": "1.0.0",
-  "description": "ilovemycity app using EJS template",
+  "description": "Single Introduction Page for Areca Manufacturers",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

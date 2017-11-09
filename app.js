@@ -16,14 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get("/",
 
     //call back function to be called when '/' route is called
-    routes.home
-);
-
-//4.1 Route 2: for localhost:port/city link, we define another route
-app.get("/:city",
-
-    //call back function to be called when "/city" is called
-    routes.city
+    routes.cards
 );
 
 //5. Decide the port
